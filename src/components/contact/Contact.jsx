@@ -15,7 +15,7 @@ function Contact() {
                     </a>
                     <a rel="noreferrer" target="_blank" href="mailto:vishnuvsj34@email.com">
                         <li className={styles.media}>
-                            <img className={styles.socialMLogo} src="/socialMedia/email.png" alt="email" />
+                            <img className={styles.socialMLogo} src="/socialMedia/gmail.png" alt="email" />
                             email
                         </li>
                     </a>
