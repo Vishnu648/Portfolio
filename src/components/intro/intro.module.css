@@ -1,0 +1,49 @@
+.intro{
+    width: 100%;
+    position: relative;
+    top:100px;
+    padding: 30px 40px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 50px;
+    height: 400px;
+    background: linear-gradient(to top,#141e30 , #243b55);
+}
+
+h1{
+    padding:0px 60px;
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+    display: inline;
+}
+.iam{
+    color: white;
+}
+
+.paragraph{
+    margin: 20px;
+    display: inline-block;
+}
+
+@media screen and (min-width: 800px) {
+    .paragraph{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:580px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.skills{
+    color:#27dcff;
+    font-size: 26px;
+}

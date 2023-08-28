@@ -1,0 +1,165 @@
+.experienceContainer {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 30px;
+    padding: 30px 30px;
+    background: linear-gradient(to right,#141e30 , #243b55);
+}
+
+.skillExperience {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    padding: 20px 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-around;
+    padding: 10px 15px;
+}
+
+.skillLogo {
+    /* border-radius: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+}
+
+.skillLogo img {
+    width: 75px;
+}
+
+@media screen and (max-width:548px) {
+    .experienceContainer {
+        position: relative;
+        top: 45px
+    }
+}
+
+@media screen and (max-width:448px) {
+    .experienceContainer {
+        position: relative;
+        top: 100px
+    }
+}
+
+
+@media screen and (max-width:423px) {
+    .experienceContainer {
+        position: relative;
+        top: 250px
+    }
+
+    .firstEx {
+        width: 100%;
+    }
+}
+
+.experience {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstEx {
+    height: 100px;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: contain;
+    background-image: linear-gradient(90deg,
+            rgba(165, 215, 232, 0.42) 0%,
+            rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    margin-top: 15px;
+}
+
+.firstEx:hover {
+    background-size: 100% 100%;
+}
+
+.companyLogo {
+    width: 80px;
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+}
+
+.nameJob {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+.comapanyName {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white
+}
+
+.jobName {
+    padding: 8px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+@media screen and (max-width:895px) {
+    .skillLogo {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+    }
+
+    .comapanyName {
+        padding: 5px 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .jobName {
+        padding: 8px 20px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .skillExperience {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 60%;
+        padding: 20px 0;
+    }
+
+    .experience {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .skills {
+        width: 100%;
+    }
+
+    .experienceContainer {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        padding: 30px 30px;
+    }
+}

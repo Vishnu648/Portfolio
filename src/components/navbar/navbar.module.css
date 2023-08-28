@@ -1,0 +1,70 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to top,#141e30 , #243b55);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 4;
+    padding: 0 20px;
+}
+
+.ul {
+    display: flex;
+    width: 70%;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+li {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 550px) {
+    .ul {
+        display: none;
+    }
+}
+@media screen and (min-width: 550px){
+    .icon{
+        display: none;
+    }
+    .mul{
+        display: none;
+    }
+}
+
+.icon{
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    float: right;
+    position: absolute;
+    right: 20px;
+}
+.smallDevice{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.menu{
+    position: relative;
+    top:100px;
+    right: 15px;
+}
+
+.mul{
+    list-style: none;
+    z-index: 8;
+    border-radius: 8px;
+    padding: 3px;
+    background: linear-gradient(to left,#141e30 , #243b55);
+}
+
+.mul li{
+    margin: 8px 2px;
+}
