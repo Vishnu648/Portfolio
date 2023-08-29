@@ -3,7 +3,7 @@ import styles from './intro.module.css'
 
 function Intro() {
 
-  const experience = ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'EXPRESS']
+  const experience = ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'REDUX', 'MONGODB', 'EXPRESS']
   const [currentExperienceIndex, setCurrentExperienceIndex] = useState(0);
   const [currentCharacterIndex, setCurrentCharacterIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
