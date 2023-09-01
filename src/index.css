@@ -11,7 +11,7 @@ h1,h2{
 /* Webkit (Safari, Chrome, and newer versions of Opera) */
 ::-webkit-scrollbar {
   width: 5px; /* Width of the scrollbar */
-  background-color: white;
+  background-color: #243b55;
 }
 
 ::-webkit-scrollbar-thumb {
