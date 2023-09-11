@@ -14,6 +14,7 @@ function App() {
 <div style={{
    position:'relative',
    top:'60px',
+   display:'none'
 }}>
       <Intro/>
       <Logo/>
