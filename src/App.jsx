@@ -11,18 +11,12 @@ function App() {
   return (
     <div className={styles.App}>
      <Navbar/>
-<div style={{
-   position:'absolute',
-   top:'70px',
-}}>
-      <Intro/>
-      <Logo/>
-      <Qualification/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
-
-</div>
+      <Intro/>
+      <Logo/>
+      <Qualification/>
+      <Experience/>
+      <Projects/>
+      <Contact/>
     </div>
   )
 }
