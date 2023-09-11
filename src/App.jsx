@@ -10,13 +10,19 @@ import Projects from './components/projects/Projects'
 function App() {
   return (
     <div className={styles.App}>
-      <Navbar/>
-      <Intro/>
-      <Logo/>
-      <Qualification/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
+     <Navbar/>
+<div style={{
+   position:'relative',
+   top:'60px',
+}}>
+      <Intro/>
+      <Logo/>
+      <Qualification/>
+      <Experience/>
+      <Projects/>
+      <Contact/>
+
+</div>
     </div>
   )
 }
