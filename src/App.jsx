@@ -12,9 +12,8 @@ function App() {
     <div className={styles.App}>
      <Navbar/>
 <div style={{
-   position:'relative',
-   top:'60px',
-   display:'none'
+   position:'absolute',
+   top:'70px',
 }}>
       <Intro/>
       <Logo/>
