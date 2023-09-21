@@ -1,5 +1,7 @@
-import {useState,useEffect} from 'react'
+import { useState, useEffect } from 'react'
 import styles from './intro.module.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Intro() {
 
@@ -23,13 +25,20 @@ function Intro() {
     return () => clearInterval(interval);
   }, [currentCharacterIndex, currentExperienceIndex]);
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 100,
+    });
+  }, []);
+
 
   return (
     <div className={styles.intro}>
       <div className={styles.dpContainer}>
-        <img className={styles.profilePic} src="/ProfilePicture.png" alt="DP" />
+        <img data-aos='fade-right' className={styles.profilePic} src="/ProfilePicture.png" alt="DP" />
       </div>
-      <div className={styles.textContainer}>
+      <div data-aos='fade-left' className={styles.textContainer}>
         <div>
           <h1>Hi,</h1>
           <h1>Iam Vishnu</h1>
