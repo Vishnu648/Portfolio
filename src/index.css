@@ -7,6 +7,9 @@ h1,h2{
   color: white;
 }
 
+body{
+  background: linear-gradient(to right,#141e30 , #243b55);
+}
 
 /* Webkit (Safari, Chrome, and newer versions of Opera) */
 ::-webkit-scrollbar {
