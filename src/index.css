@@ -3,6 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 h1,h2{
   color: white;
 }
