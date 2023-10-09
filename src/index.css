@@ -13,6 +13,7 @@ h1,h2{
 
 body{
   background: linear-gradient(to right,#141e30 , #243b55);
+  overflow-x: hidden;
 }
 
 /* Webkit (Safari, Chrome, and newer versions of Opera) */
