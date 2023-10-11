@@ -36,7 +36,7 @@ function Intro() {
   return (
     <div className={styles.intro}>
       <div className={styles.dpContainer}>
-        <img data-aos='fade-right' className={styles.profilePic} src="/ProfilePicture.png" alt="DP" />
+        <img className={styles.profilePic} src="/ProfilePicture.png" alt="DP" />
       </div>
       <div data-aos='fade-left' className={styles.textContainer}>
         <div>
