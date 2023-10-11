@@ -43,6 +43,28 @@ p{
     }
 }
 
+.profilePic{
+    animation:1s opacity;
+}
+
+@keyframes opacity{
+  0%{
+    opacity:0;
+  }
+  25%{
+    opacity:0.25;
+  }
+  50%{
+    opacity:0.5;
+  }
+  75%{
+    opacity:0.75;
+  }
+  100%{
+    opacity:1;
+  }
+}
+
 .skills{
     color:#27dcff;
     font-size: 26px;
